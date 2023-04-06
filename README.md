@@ -17,13 +17,13 @@ The main benefits of version control are that it allows multiple people to colla
 
 - Some of the main Git commands are:
 
-git init: Initialises a new Git repository in the current directory.
-git add . : Adds files to the staging area so that they are ready to be committed.
-git commit -m "message goes here" : Creates a new commit with the changes made to files in the staging area, along with a commit message describing the changes.
-git push: Uploads local changes to a remote repository.
-git pull: Downloads changes from a remote repository and incorporates them into the local repository.
-git branch: Lists all branches in the repository, and allows you to create, rename, or delete branches.
-git merge: Merges changes from one branch into another.
+1. git init: Initialises a new Git repository in the current directory.
+2. git add . : Adds files to the staging area so that they are ready to be committed.
+3. git commit -m "message goes here" : Creates a new commit with the changes made to files in the staging area, along with a commit message describing the changes.
+4. git push: Uploads local changes to a remote repository.
+5. git pull: Downloads changes from a remote repository and incorporates them into the local repository.
+6. git branch: Lists all branches in the repository, and allows you to create, rename, or delete branches.
+7. git merge: Merges changes from one branch into another.
 
   Another relevant command that I fnd important is:
 git status: Shows the current status of the Git repository, including which files are staged, modified, or untracked. This is helpful because it shows which files have been modified or added since the last commit, which files are currently staged and ready to be committed, and which files are not being tracked by Git.
